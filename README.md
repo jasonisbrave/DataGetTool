@@ -49,3 +49,7 @@ python -m PyInstaller DataGetTool-stable.spec  # 稳定版
 ## 许可证
 
 [MIT](LICENSE)
+
+## 开发说明
+
+本项目采用 **Vibe Coding** 方式开发，全程由 [Kimi Code](https://www.kimi.com/)（Moonshot AI 推出的 AI 编程助手）协作完成：功能实现、调试、打包与发布均由自然语言驱动、AI 辅助编码。
