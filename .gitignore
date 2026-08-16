@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller 构建产物
+build/
+dist/
+
+# 压缩包与可执行文件（发布请走 GitHub Releases）
+*.7z
+*.zip
+*.exe
