@@ -1,0 +1,13 @@
+[project]
+name = "datagettool-core"
+version = "0.1.0"
+description = "DataGetTool 备份处理核心 + JSON CLI sidecar（不启动 tkinter）"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+sevenzip = ["py7zr>=0.20"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"

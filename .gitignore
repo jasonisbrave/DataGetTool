@@ -2,11 +2,14 @@
 __pycache__/
 *.pyc
 
-# PyInstaller 构建产物
+# PyInstaller 构建中间产物
 build/
-dist/
+*.spec
 
-# 压缩包与可执行文件（发布请走 GitHub Releases）
+# 临时文件
 *.7z
 *.zip
+
+# 本地产物
 *.exe
+dist/

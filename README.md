@@ -53,3 +53,15 @@ python -m PyInstaller DataGetTool-stable.spec  # 稳定版
 ## 开发说明
 
 本项目采用 **Vibe Coding** 方式开发，全程由 [Kimi Code](https://www.kimi.com/)（Moonshot AI 推出的 AI 编程助手）协作完成：功能实现、调试、打包与发布均由自然语言驱动、AI 辅助编码。
+
+## CLI sidecar（工具箱接入）
+
+独立核心：`datagettool_core.py`；CLI：`datagettool_cli.py`。
+
+```powershell
+python datagettool_cli.py inspect --path backup.bak
+python datagettool_cli.py tar --path backup.tar --out .\out
+python datagettool_cli.py ba --path backup.ba_ --out .\out
+python datagettool_cli.py xml --path data.xml
+```n
+工具箱通过 CLI 调用，不再复制核心逻辑。
